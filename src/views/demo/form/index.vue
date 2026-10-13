@@ -678,6 +678,14 @@
         allowHalf: true,
       },
     },
+    {
+      field: 'color',
+      component: 'ColorPicker',
+      label: '颜色选择',
+      colProps: {
+        span: 24,
+      },
+    },
   ];
 
   export default defineComponent({

@@ -32,6 +32,8 @@ import { BasicUpload } from '/@/components/Upload';
 import { StrengthMeter } from '/@/components/StrengthMeter';
 import { IconPicker } from '/@/components/Icon';
 import { CountdownInput } from '/@/components/CountDown';
+import { ImageUpload } from '/@/components/ImageUpload';
+import { ColorPicker } from '/@/components/ColorPicker';
 
 const componentMap = new Map<ComponentType, Component>();
 
@@ -70,6 +72,8 @@ componentMap.set('IconPicker', IconPicker);
 componentMap.set('InputCountDown', CountdownInput);
 
 componentMap.set('Upload', BasicUpload);
+componentMap.set('ImageUpload', ImageUpload);
+componentMap.set('ColorPicker', ColorPicker);
 componentMap.set('Divider', Divider);
 
 export function add(compName: ComponentType, component: Component) {
